@@ -1,0 +1,16 @@
+{
+  "name": "nostweaks-ai-proxy",
+  "version": "1.0.0",
+  "description": "AI proxy server for Nos Tweaks — keeps API key server-side",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
