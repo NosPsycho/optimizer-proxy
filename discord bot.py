@@ -6,7 +6,7 @@ import io
 
 # CONFIGURATION
 # Replace this with the ID of the channel where you want transcripts sent
-LOG_CHANNEL_ID = 1480638968973230090 
+LOG_CHANNEL_ID =
 
 PAYMENT_INFO = {
     "card": {"name": "💳-card-payment", "label": "Card Payment (£5)"},
@@ -174,4 +174,4 @@ async def setup_ticket(interaction: discord.Interaction):
 
     await interaction.response.send_message(embed=embed, view=PaymentView())
 
-bot.run("MTQ4MTc2NjYxODUzNDI1MjYxNQ.Gf6gE-.EVWTv6zbCUeHRPK8HRoTpxH6cmQiF676DNO8Zs")
+bot.run(
